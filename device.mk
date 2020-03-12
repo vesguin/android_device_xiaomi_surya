@@ -47,6 +47,9 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+
 # Display
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/display/,$(TARGET_COPY_OUT_VENDOR)/etc)
