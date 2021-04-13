@@ -29,6 +29,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.config.vc_call_vol_default=5 \
     ro.config.vc_call_vol_steps=10
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vendor.audio.sdk.fluencetype=fluence
+
 # Bluetooth
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.bluetooth.modem_nv_support=true \
