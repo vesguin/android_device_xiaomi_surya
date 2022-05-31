@@ -163,7 +163,6 @@ PRODUCT_PACKAGES += \
     ParanoidDoze
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.sensor.proximity=true \
     ro.sensor.pickup=xiaomi.sensor.pickup
 
 # Partitions
