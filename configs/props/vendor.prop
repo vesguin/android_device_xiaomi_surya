@@ -97,6 +97,9 @@ ro.soc.model=SM7150
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # ZRAM
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
