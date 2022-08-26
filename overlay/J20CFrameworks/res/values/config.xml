@@ -548,4 +548,7 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">POCO/surya_global/surya:12/SKQ1.211019.001/V13.0.1.0.SJGMIXM:user/release-keys</string>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
+
 </resources>
