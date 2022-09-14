@@ -46,7 +46,7 @@ bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
 bool setDeviceSpecificMode(Mode type, bool enabled) {
     switch (type) {
         case Mode::EXPENSIVE_RENDERING:
-            WriteStringToFile(enabled ? "0" : "7", GPU_MIN_PWRLEVEL_NODE, true);
+            WriteStringToFile(enabled ? "0" : "6", GPU_MIN_PWRLEVEL_NODE, true);
             return true;
         case Mode::LOW_POWER:
             WriteStringToFile(enabled ? "Y" : "N", BATTERY_SAVER_NODE, true);
