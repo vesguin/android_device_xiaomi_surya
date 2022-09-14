@@ -46,6 +46,9 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.btstack.enable.lpa=true \
     persist.vendor.btstack.enable.twsplus=true
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    bluetooth.hardware.power.operating_voltage_mv=3300
+
 # Camera
 PRODUCT_PACKAGES += \
     libpiex_shim \
