@@ -1081,7 +1081,7 @@ vendor/etc/sensors/sns_reg_config
 # Soter - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|c20b05b20874e6b7f14cd61346646c79c363f42f
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|dcdca96d86411b7cfe7200c07570a341d35e5607
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|52f410430054a012a983529b0ee1ed3b689b9dcb
 
 # Thermal
@@ -1161,4 +1161,4 @@ vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|c08e1803c3089ee5da37b0a
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|fefea0a3279f850e562cfaaf4fe3b24af1dd3994
 
 # WLAN - from LA.UM.9.1.r1-10900-SMxxx0.0
-vendor/bin/cnss-daemon|2efe1199ef5eaee518127edebab356ed934fdf7a
+vendor/bin/cnss-daemon|a66bf400596682c3cb4d5cbdcdd3640333844eb1
