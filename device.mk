@@ -420,10 +420,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # LMK
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.config.low_ram=false \
-    ro.lmk.log_stats=false \
-    ro.lmk.filecache_min_kb=153600 \
-    ro.lmk.stall_limit_critical=40 \
     ro.vendor.lmk.force_inkernel_lmk=true
 
 # Vendor blobs
