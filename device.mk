@@ -306,7 +306,6 @@ PRODUCT_PACKAGES += \
     J20CWifiOverlay \
     KarnaFrameworks \
     KarnaWifiOverlay \
-    NotchBarKiller \
     SuryaFrameworks \
     SuryaWifiOverlay
 
