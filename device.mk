@@ -135,6 +135,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.idle_time_inactive=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.frame_rate_multiple_threshold=60 \
     debug.sf.use_phase_offsets_as_durations=1 \
     debug.sf.late.sf.duration=10500000 \
     debug.sf.late.app.duration=20500000 \
