@@ -311,9 +311,7 @@ PRODUCT_PACKAGES += \
     J20CSystemUI \
     J20CWifiOverlay \
     KarnaFrameworks \
-    KarnaWifiOverlay \
-    SuryaFrameworks \
-    SuryaWifiOverlay
+    SuryaFrameworks
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
