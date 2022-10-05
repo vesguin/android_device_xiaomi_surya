@@ -80,9 +80,6 @@ BOARD_KERNEL_CMDLINE += \
     androidboot.usbcontroller=a600000.dwc3 \
     androidboot.init_fatal_reboot_target=recovery
 
-# Media
-TARGET_DISABLED_UBWC := true
-
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
