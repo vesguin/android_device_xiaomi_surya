@@ -33,21 +33,15 @@ void property_override(char const prop[], char const value[], bool add = true) {
 }
 
 void load_poco_karna() {
-    property_override("ro.product.brand", "POCO");
     property_override("ro.product.device", "karna");
-    property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.model", "POCO X3");
     property_override("ro.product.name", "karna_in");
-    property_override("ro.product.marketname", "POCO X3");
 }
 
 void load_poco_surya() {
-    property_override("ro.product.brand", "POCO");
     property_override("ro.product.device", "surya");
-    property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.model", "POCO X3 NFC");
     property_override("ro.product.name", "surya_global");
-    property_override("ro.product.marketname", "POCO X3 NFC");
 }
 
 void vendor_load_properties() {
