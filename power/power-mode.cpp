@@ -32,10 +32,10 @@ using ::android::base::WriteStringToFile;
 
 bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
     switch (type) {
-        case Mode::EXPENSIVE_RENDERING:
+        case Mode::LOW_POWER:
             *_aidl_return = true;
             return true;
-        case Mode::LOW_POWER:
+        case Mode::EXPENSIVE_RENDERING:
             *_aidl_return = true;
             return true;
         default:
@@ -45,11 +45,11 @@ bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
 
 bool setDeviceSpecificMode(Mode type, bool enabled) {
     switch (type) {
-        case Mode::EXPENSIVE_RENDERING:
-            WriteStringToFile(enabled ? "0" : "6", GPU_MIN_PWRLEVEL_NODE, true);
-            return true;
         case Mode::LOW_POWER:
             WriteStringToFile(enabled ? "Y" : "N", BATTERY_SAVER_NODE, true);
+            return true;
+        case Mode::EXPENSIVE_RENDERING:
+            WriteStringToFile(enabled ? "0" : "6", GPU_MIN_PWRLEVEL_NODE, true);
             return true;
         default:
             return false;
