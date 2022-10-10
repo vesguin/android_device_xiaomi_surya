@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.auto_latch_unsignaled=true \
     debug.sf.disable_backpressure=1 \
     ro.config.avoid_gfx_accel=true \
     debug.renderengine.backend=skiaglthreaded \
