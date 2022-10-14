@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
-    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.disable_backpressure=1 \
     ro.config.avoid_gfx_accel=true \
     debug.renderengine.backend=skiaglthreaded \
     debug.sf.disable_client_composition_cache=1 \
