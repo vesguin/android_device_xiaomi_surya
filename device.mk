@@ -45,6 +45,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.hw.fm.init=0 \
     vendor.qcom.bluetooth.soc=cherokee
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.vendor.btstack.enable.lpa=true \
+    persist.vendor.btstack.enable.twsplus=true
+
 PRODUCT_PRODUCT_PROPERTIES += \
     bluetooth.hardware.power.operating_voltage_mv=3300
 
