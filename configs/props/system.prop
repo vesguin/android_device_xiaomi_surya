@@ -1,2 +1,5 @@
+# Display
+ro.sf.use_latest_hwc_vsync_period=0
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
