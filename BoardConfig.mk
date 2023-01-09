@@ -14,14 +14,12 @@ TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_VARIANT := cortex-a76
-TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
-TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := surya,karna
@@ -45,16 +43,12 @@ DEVICE_MATRIX_FILE += device/qcom/common/compatibility_matrix.xml
 ODM_MANIFEST_SKUS += surya
 ODM_MANIFEST_SURYA_FILES := $(DEVICE_PATH)/configs/vintf/manifest-nfc.xml
 
-# HWUI
-HWUI_COMPILE_FOR_PERF := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_surya
 TARGET_RECOVERY_DEVICE_MODULES := libinit_surya
 
 # Kernel
 KERNEL_DEFCONFIG := vendor/surya-perf_defconfig
-KERNEL_SD_LLVM_SUPPORT := true
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_RAMDISK_OFFSET := 0x01000000

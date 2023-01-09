@@ -398,6 +398,9 @@
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">250</integer>
 
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
+
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps">true</bool>
 
@@ -455,16 +458,8 @@
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 
-    <!-- Determines whether the shell features all run on another thread. -->
-    <bool name="config_enableShellMainThread">true</bool>
-
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
-
-    <!-- Safe headphone volume index. When music stream volume is below this index
-    the SPL on headphone output is compliant to EN 60950 requirements for portable music
-    players. -->
-    <integer name="config_safe_media_volume_index">17</integer>
 
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">

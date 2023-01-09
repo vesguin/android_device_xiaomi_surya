@@ -47,12 +47,6 @@ PRODUCT_PACKAGES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# Dex
-PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
-PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
 # Display
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/display/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -63,14 +57,9 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm@1.4-service.clearkey
 
-# Filesystems
-PRODUCT_PACKAGES += \
-    e2fsck_ramdisk \
-    tune2fs_ramdisk \
-    resize2fs_ramdisk
-
+# Filesystems table
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
