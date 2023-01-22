@@ -202,7 +202,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.xiaomi-multihal \
+    android.hardware.sensors@2.1-service.multihal \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
