@@ -58,10 +58,7 @@ debug.sf.earlyGl.sf.duration=13500000
 debug.sf.earlyGl.app.duration=21000000
 
 # DPM
-persist.vendor.dpm.feature=1
 persist.vendor.dpmhalservice.enable=1
-persist.vendor.dpm.idletimer.mode=default
-persist.vendor.dpm.nsrm.bkg.evt=3955
 
 # DRM
 drm.service.enabled=true
@@ -91,9 +88,7 @@ ro.hardware.keystore_desede=true
 ro.vendor.lmk.force_inkernel_lmk=true
 
 # Netflix
-ro.netflix.bsp_rev=Q6150-17263-1
-ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
-ro.netflix.signup=1
+vendor.netflix.bsp_rev=Q6150-17263-1
 
 # QMI
 persist.vendor.qcomsysd.enabled=1
