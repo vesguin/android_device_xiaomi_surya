@@ -1,4 +1,4 @@
-# Device proprietary files - from V12.5.7.0.RJGMIXM
+# Device proprietary files - from V12.5.8.0.RJGMIXM
 # Qualcomm proprietary files - from LA.UM.9.1.r1-10900-SMxxx0.0
 
 # ADSP - from LA.UM.9.1.r1-10900-SMxxx0.0
@@ -13,7 +13,7 @@ vendor/lib64/libadsprpc.so|e031fbefb26612616a00fdbf31eb4a06a91e2b08
 vendor/lib64/libmdsprpc.so|a460ba732386b5ac2a2f2240a24fe8cc02c13f33
 vendor/lib64/libsdsprpc.so|b1d78f6d96d912957e99ecf49ff2da73ecd71432
 
-# ADSP modules - from V12.5.7.0.RJGMIXM
+# ADSP modules - from V12.5.8.0.RJGMIXM
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
@@ -51,7 +51,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|02a314f7dc19b06dfd9a45b0c0bcd0aca6e822bb
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|7c89039a1d670ff6f92ada82bd1ff2c2366dd145
 
-# Audio - from V12.5.7.0.RJGMIXM
+# Audio - from V12.5.8.0.RJGMIXM
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libqcompostprocbundle.so
@@ -107,7 +107,7 @@ vendor/lib64/libsndmonitor.so
 vendor/lib64/libspkrprot.so
 vendor/lib64/libssrec.so
 
-# Audio ACDB - from V12.5.7.0.RJGMIXM
+# Audio ACDB - from V12.5.8.0.RJGMIXM
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
@@ -119,16 +119,16 @@ vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio firmware - from V12.5.7.0.RJGMIXM
+# Audio firmware - from V12.5.8.0.RJGMIXM
 vendor/firmware/tas256x_reg.bin
 
-# Audio HAL - from V12.5.7.0.RJGMIXM
+# Audio HAL - from V12.5.8.0.RJGMIXM
 vendor/lib/hw/audio.primary.sm6150.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib64/hw/audio.primary.sm6150.so
 vendor/lib64/libaudio_log_utils.so
 
-# Batterysecret - from V12.5.7.0.RJGMIXM
+# Batterysecret - from V12.5.8.0.RJGMIXM
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
@@ -169,7 +169,7 @@ vendor/lib64/libbtnv.so|b7e9c2dc35ce9eb959d7060963a9b3b008e59764
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|bef043fd17661bc61f3f03dbf355dd5af195ab50
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|8c14f8120a37db2eb95239c6caa33d881a9b3ad0
 
-# Camera - from V12.5.7.0.RJGMIXM
+# Camera - from V12.5.8.0.RJGMIXM
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libFaceGrade.so
@@ -241,7 +241,7 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
 
-# Camera components - from V12.5.7.0.RJGMIXM
+# Camera components - from V12.5.8.0.RJGMIXM
 vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.altek.node.depurple.so
@@ -311,7 +311,7 @@ vendor/lib64/camera/components/com.xiaomi.node.misegment.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 
-# Camera configs - from V12.5.7.0.RJGMIXM
+# Camera configs - from V12.5.8.0.RJGMIXM
 vendor/etc/camera/CFR_para_M_V07.bin
 vendor/etc/camera/CFR_para_M_V10.bin
 vendor/etc/camera/CFR_para_UW_V01.bin
@@ -346,14 +346,14 @@ vendor/etc/camera/score_icon.png
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/watermark_font_2300_3199.dat
 
-# Camera firmware - from V12.5.7.0.RJGMIXM
+# Camera firmware - from V12.5.8.0.RJGMIXM
 vendor/firmware/CAMERA_ICP.elf
 
-# Camera provider - from V12.5.7.0.RJGMIXM
+# Camera provider - from V12.5.8.0.RJGMIXM
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 
-# Camera sensors - from V12.5.7.0.RJGMIXM
+# Camera sensors - from V12.5.8.0.RJGMIXM
 vendor/lib64/camera/com.qti.sensor.ofilm_hi259.so
 vendor/lib64/camera/com.qti.sensor.ofilm_imx682.so
 vendor/lib64/camera/com.qti.sensor.ofilm_ov02b1b.so
@@ -421,7 +421,7 @@ vendor/bin/init.qti.chg_policy.sh|9b91792b4f09259747196afd652ac8d5a4a0dd6b
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
-# Charger - HVDCP - from V12.5.7.0.RJGMIXM
+# Charger - HVDCP - from V12.5.8.0.RJGMIXM
 vendor/bin/hvdcp_opti
 
 # CNE - from LA.UM.9.1.r1-10900-SMxxx0.0
@@ -502,7 +502,7 @@ vendor/lib64/libsdm-disp-vndapis.so|4fbf76da3a9eb5d227f948521bd4c80842446bb4
 vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Display calibration - from V12.5.7.0.RJGMIXM
+# Display calibration - from V12.5.8.0.RJGMIXM
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
@@ -556,7 +556,7 @@ vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|ce94ef46eea7c32e8a0d47ce4aa372153cc339fb
 
-# DRM - Widevine - from V12.5.7.0.RJGMIXM
+# DRM - Widevine - from V12.5.8.0.RJGMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
@@ -570,7 +570,7 @@ vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a6941696970
 
-# Fingerprint - from V12.5.7.0.RJGMIXM
+# Fingerprint - from V12.5.8.0.RJGMIXM
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/hw/fingerprint.fpc.default.so
@@ -593,7 +593,7 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e4134405110
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|14819df15693c737fb2a51bf89fe826200286006
 
-# Graphics firmware - from V12.5.7.0.RJGMIXM
+# Graphics firmware - from V12.5.8.0.RJGMIXM
 vendor/firmware/a615_zap.b00
 vendor/firmware/a615_zap.b01
 vendor/firmware/a615_zap.b02
@@ -652,7 +652,7 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so|f02b266ff4869cd38bd39f02d01d1586593c
 vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
-# IPA firmware - from V12.5.7.0.RJGMIXM
+# IPA firmware - from V12.5.8.0.RJGMIXM
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
@@ -661,10 +661,10 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# IR - from V12.5.7.0.RJGMIXM
+# IR - from V12.5.8.0.RJGMIXM
 vendor/lib64/hw/consumerir.default.so
 
-# Keymaster - from V12.5.7.0.RJGMIXM
+# Keymaster - from V12.5.8.0.RJGMIXM
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib64/libkeymasterdeviceutils.so
@@ -672,7 +672,7 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqcbor.so
 vendor/lib64/libqtikeymaster4.so
 
-# Listen - from V12.5.7.0.RJGMIXM
+# Listen - from V12.5.8.0.RJGMIXM
 vendor/lib/libadpcmdec.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
@@ -748,7 +748,7 @@ vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hta.so|6cb1ca10aa1c82e59641d545d9f1ac7f00df8621
 vendor/lib64/unnhal-acc-hvx.so|00eb79608cb6e3f19eaf9389632fdbfa03b2df62
 
-# NFC - from V12.5.7.0.RJGMIXM
+# NFC - from V12.5.8.0.RJGMIXM
 vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service
 vendor/etc/init/vendor.nxp.hardware.nfc@1.2-service.rc
 vendor/etc/nfc/nfc_whitelist.properties
@@ -764,7 +764,7 @@ vendor/lib64/vendor.nxp.nxpese@1.0.so
 vendor/lib64/vendor.nxp.nxpnfc@1.0.so
 vendor/libnfc-nxp_RF.conf
 
-# NFC - secure element - from V12.5.7.0.RJGMIXM
+# NFC - secure element - from V12.5.8.0.RJGMIXM
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
@@ -779,7 +779,7 @@ vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
 vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
-# Public libraries - from V12.5.7.0.RJGMIXM
+# Public libraries - from V12.5.8.0.RJGMIXM
 vendor/etc/public.libraries.txt
 
 # QCV (SOC Helper) - from LA.UM.9.1.r1-10900-SMxxx0.0
@@ -986,7 +986,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|38a159f3e564dccbfb9d5170ea2ce8da49c
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|beeb9324900da6582f92ffab225cc0d314bf71bd
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
-# Sensors - from V12.5.7.0.RJGMIXM
+# Sensors - from V12.5.8.0.RJGMIXM
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
@@ -1003,7 +1003,7 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 
-# Sensors config - from V12.5.7.0.RJGMIXM
+# Sensors config - from V12.5.8.0.RJGMIXM
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/bmi160_0.json
 vendor/etc/sensors/config/lsm6ds3c_0.json
@@ -1051,14 +1051,14 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
-# SOTER - from V12.5.7.0.RJGMIXM
+# SOTER - from V12.5.8.0.RJGMIXM
 -app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal - from V12.5.7.0.RJGMIXM
+# Thermal - from V12.5.8.0.RJGMIXM
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine
 vendor/etc/thermal-4k.conf
@@ -1082,7 +1082,7 @@ vendor/bin/time_daemon|17377813bbc330c23d2fee77be21fe24d8aa131e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 
-# Touchscreen firmware - from V12.5.7.0.RJGMIXM
+# Touchscreen firmware - from V12.5.8.0.RJGMIXM
 vendor/firmware/novatek_ts_huaxing_fw.bin
 vendor/firmware/novatek_ts_huaxing_mp.bin
 vendor/firmware/novatek_ts_tianma_fw.bin
@@ -1093,12 +1093,12 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f96
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a793753b209c40
 
-# Vibrator firmware - AW8624 - from V12.5.7.0.RJGMIXM
+# Vibrator firmware - AW8624 - from V12.5.8.0.RJGMIXM
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_rtp.bin
 vendor/firmware/osc_rtp_24K_5s.bin
 
-# Vibrator firmware - DRV2624 - from V12.5.7.0.RJGMIXM
+# Vibrator firmware - DRV2624 - from V12.5.8.0.RJGMIXM
 vendor/firmware/drv2624.bin
 vendor/firmware/drv2624.rtp
 
