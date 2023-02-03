@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    GoogleCamera
+
+PRODUCT_PACKAGES += \
     libpiex_shim
 
 PRODUCT_PACKAGES += \
