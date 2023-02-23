@@ -16,6 +16,10 @@ android_app {
         "privapp-permissions-parts.xml",
     ],
 
+    static_libs: [
+        "co.aospa.resources",
+    ],
+
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
